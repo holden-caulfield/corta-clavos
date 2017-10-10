@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table thead th {
+  padding-top: 15px;
+}
+
+table td,
+table th {
+  padding: 5px 15px;
+}
+
+table tr:last-child td {
+  padding-bottom: 15px;
+}
+
+table thead th {
+  border-bottom: 1px solid grey;
+}
+
+table th.primary {
+  width: 100px;
+}
+
+table tr.qualify {
+  color: green;
+}
+
+table tr.playoff {
+  color: darkgoldenrod;
+}
+
+table tr.eliminated {
+  color: crimson;
+}

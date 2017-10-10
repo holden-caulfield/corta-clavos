@@ -1,0 +1,25 @@
+.matches {
+  width: 100%;
+}
+
+.matches p {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 30px;
+}
+
+.matches p .team {
+  width: 100px;
+}
+
+.matches p .vs {
+  padding: 0 10px;
+}
+
+.react-numeric-input input {
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+}

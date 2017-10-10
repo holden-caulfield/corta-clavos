@@ -1,0 +1,34 @@
+section.scenario {
+  flex-grow: 1;
+}
+
+p.scenario {
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+p.currentScenario {
+  font-size: 60px;
+}
+
+p.scenario p {
+  margin: 5px;
+}
+
+p.currentScenario .legend {
+  font-size: 30px;
+}
+
+p.potentialScenario {
+  font-size: 30px;
+}
+
+p.alternative {
+  font-size: 20px;
+}
+
+p.separator {
+  font-size: 10px;
+}
