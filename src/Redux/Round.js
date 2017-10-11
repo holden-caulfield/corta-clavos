@@ -1,13 +1,12 @@
 import { createReducer, createActions } from 'reduxsauce'
-
 /* ------------- Initial State ------------- */
 
 const INITIAL_STATE = [
-  { homeTeam: 'ECU', awayTeam: 'ARG', home: 0, away: 0 },
-  { homeTeam: 'BRA', awayTeam: 'CHI', home: 0, away: 0 },
-  { homeTeam: 'PAR', awayTeam: 'VEN', home: 0, away: 0 },
-  { homeTeam: 'URU', awayTeam: 'BOL', home: 0, away: 0 },
-  { homeTeam: 'PER', awayTeam: 'COL', home: 0, away: 0 }
+  { homeTeam: 'ECU', awayTeam: 'ARG', home: 1, away: 3 },
+  { homeTeam: 'BRA', awayTeam: 'CHI', home: 3, away: 0 },
+  { homeTeam: 'PAR', awayTeam: 'VEN', home: 0, away: 1 },
+  { homeTeam: 'URU', awayTeam: 'BOL', home: 4, away: 2 },
+  { homeTeam: 'PER', awayTeam: 'COL', home: 1, away: 1 }
 ]
 
 /* ------------- Types and Action Creators ------------- */
